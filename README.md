@@ -22,7 +22,7 @@ This repository contains the source code for my professional portfolio. Designed
 
 ## 💡 The ₹0 Build Strategy & Philosophy
 
-This website was engineered and published **without spending a single dollar**, proving that a high-performance, polished web presence requires zero financial investment when leveraging modern tools:
+This website was engineered and published **without spending a single rupee**, proving that a high-performance, polished web presence requires zero financial investment when leveraging modern tools:
 
 * **0-Cost Hosting & Deployment:** Hosted completely free on **Cloudflare Pages / Workers** linked directly to GitHub for continuous deployment on every push.
 * **AI-Assisted Engineering:** Built using basic HTML/CSS knowledge paired with **GitHub Copilot**, **Gemini**, and **Meta AI** in **VS Code** to generate structural layouts, optimize dynamic JavaScript fetches, and refine interactive UI components.
