@@ -46,7 +46,7 @@ This website was engineered and published **without spending a single dollar**, 
 ```text
 website-portfolio/
 ├── assets/
-│   ├── img/            # Compressed image assets (.jpg, .png)
+│   ├── img/            # Compressed image assets (.jpeg, .png)
 │   └── vid/            # Portfolio showcase clips (.mp4)
 │   └── cv/             # Downloadable Resume/CV (.pdf)
 ├── about.html          # Background, skills, and strategic philosophy
