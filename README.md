@@ -20,7 +20,7 @@ This repository contains the source code for my professional portfolio. Designed
 
 ---
 
-## 💡 The $0 Build Strategy & Philosophy
+## 💡 The ₹0 Build Strategy & Philosophy
 
 This website was engineered and published **without spending a single dollar**, proving that a high-performance, polished web presence requires zero financial investment when leveraging modern tools:
 
