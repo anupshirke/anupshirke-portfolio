@@ -48,6 +48,7 @@ website-portfolio/
 ├── assets/
 │   ├── img/            # Compressed image assets (.jpg, .png)
 │   └── vid/            # Portfolio showcase clips (.mp4)
+│   └── cv/             # Downloadable Resume/CV (.pdf)
 ├── about.html          # Background, skills, and strategic philosophy
 ├── contact.html        # Direct messaging and inquiry form
 ├── footer.html         # Dynamic site footer component
