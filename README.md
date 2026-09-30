@@ -95,8 +95,7 @@ Open `http://localhost:8000` in your browser.
 ## Contact & Connect
 
 * **Website:** [anupshirke-portfolio](https://www.google.com/search?q=https://anupshirke-portfolio.anupshirke111.workers.dev)
-* **Email:** [anup@shirke.design](https://www.google.com/search?q=mailto%3Aanup%40shirke.design)
-
+* **Email:** anup.a.shirke@gmail.com
 ---
 
 *Created & Maintained by Anup Shirke.*
