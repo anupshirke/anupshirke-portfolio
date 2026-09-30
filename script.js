@@ -1,11 +1,13 @@
 
 // Prevent Ctrl+S / Cmd+S (Save Page)
-document.addEventListener('keydown', function(e) {
-  if ((e.ctrlKey || e.metaKey) && (e.key === 's' || e.key === 'S')) {
+window.addEventListener('keydown', function(e) {
+  if ((e.ctrlKey || e.metaKey) && (e.key === 's' || e.key === 'S' || e.keyCode === 83)) {
     e.preventDefault();
-    // Optional alert or toast message
-    // alert('Saving this page is disabled.');
+    e.stopPropagation();
+    return false;
   }
+}, true);
+
 function toggleTheme(){
   const current = document.documentElement.getAttribute('data-theme') || 'dark';
   const next = current === 'dark' ? 'light' : 'dark';
