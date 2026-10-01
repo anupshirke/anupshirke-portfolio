@@ -232,3 +232,8 @@ html[data-theme="light"]:has(a:hover, button:hover, input:hover, .btn:hover, .ca
 .kursor__pointer {
   border-color: var(--red, #e63946) !important;
 }
+.logo img {
+  display: block;
+  width: 80px;
+  height: auto;
+}
