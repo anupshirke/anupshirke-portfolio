@@ -115,25 +115,24 @@
       chatOutput.scrollTop = chatOutput.scrollHeight;
     }
 
-    // Function to handle the simulated AI response
+    // Function to handle response as YOU directly
     function generateAIResponse(userMessage) {
       const message = userMessage.toLowerCase();
-      let response = "COMMAND NOT RECOGNIZED. Provide data regarding Anup's expertise (Digital Marketing, AI, Tech)._";
+      let response = "Not sure about that one. What do you want to talk about—marketing, tech, or gaming?_";
 
-      // Basic response routing based on keywords
-      if (message.includes('hello') || message.includes('hi')) {
-        response = "Connection acknowledged. I am Anup Shirke's AI avatar, specialized in Digital Marketing & AI Strategy optimization._";
+      if (message.includes('hello') || message.includes('hi') || message.includes('hey')) {
+        response = "Hey! Glad you found this page. What's up?_";
       } else if (message.includes('marketing') || message.includes('digital') || message.includes('strategy')) {
-        response = "Anup has extensive experience scaling performance marketing campaigns and integrating AI tools to maximize strategy ROI. Data indicates high proficiency._";
+        response = "I focus on digital marketing and AI strategy—working on growth campaigns, analytics, and using AI tools to scale stuff faster._";
       } else if (message.includes('project') || message.includes('work')) {
-        response = "Anup's portfolio is classified. Main assets can be verified via the root domain (anupshirke-portfolio). I handle strategic intelligence._";
+        response = "I'm working on digital marketing systems and exploring new AI workflows. You can see my featured work on my main portfolio site!_";
       } else if (message.includes('game') || message.includes('gaming') || message.includes('tech') || message.includes('ps5')) {
-        response = "When not optimizing marketing systems, Anup engages in high-level gaming (PS5, Call of Duty) and explores new hardware configurations._";
+        response = "When I'm off work, I'm usually playing COD, gaming on my PS5, or tweaking my setup._";
       }
 
-      // Add AI response after a slight delay
+      // Add response after a short delay as [ANUP]
       setTimeout(() => {
-        addMessage('Anup_AI', response, 'ai');
+        addMessage('Anup', response, 'ai');
       }, 700);
     }
 
